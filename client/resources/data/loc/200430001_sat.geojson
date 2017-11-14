@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+		  "title": "Ayuntamiento de Juchitán Zaragoza",
+		  "pre": "/resources/img/sat/palacio_2014.png",
+		  "post": "/resources/img/sat/palacio_2017.png"
+	  },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.02121329307556,
+              16.43375438270975
+            ],
+            [
+              -95.02261877059937,
+              16.433713220561387
+            ],
+            [
+              -95.02273142337799,
+              16.432586403362315
+            ],
+            [
+              -95.02127230167389,
+              16.432586403362315
+            ],
+            [
+              -95.02121329307556,
+              16.43375438270975
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
