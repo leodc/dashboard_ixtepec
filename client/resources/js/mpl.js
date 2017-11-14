@@ -14,7 +14,6 @@ window.searchMplImages = function(latLngBounds, link){
 	var clearLayers = false;
 
 	if(link==null){
-		$("#chargingDialog").modal('show');
 		// bbox minx,miny,maxx,maxy
 	    var bbox = [latLngBounds.getWest(), latLngBounds.getNorth(), latLngBounds.getEast(), latLngBounds.getSouth()];
 		link = mapillary.base_url + "/images?" + "bbox=" + bbox + "&client_id=" + mapillary.client_id;
